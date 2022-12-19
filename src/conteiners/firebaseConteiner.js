@@ -29,7 +29,7 @@ class FirebaseConteiner {
         return FirebaseConteiner.instanceChat;
     }
 
-    static getInstanceFirebase() {
+    static getInstanceProduct() {
         if (FirebaseConteiner.instanceProduct) {
             return FirebaseConteiner.instanceProduct;
         }
