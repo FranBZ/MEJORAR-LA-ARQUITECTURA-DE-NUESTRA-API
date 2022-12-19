@@ -33,7 +33,6 @@ class FsConteiner {
     }
 
     async getAll() { 
-        console.log(this.pathFile)
         try {
             const data = await fs.promises.readFile(this.pathFile, 'utf-8', (err, data) => {
                 if (err) throw err

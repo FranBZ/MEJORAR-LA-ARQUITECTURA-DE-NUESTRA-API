@@ -21,7 +21,7 @@ class FirebaseConteiner {
         this.collection = db.collection(model)
     }
 
-    static getInstance() {
+    static getInstanceChat() {
         if (FirebaseConteiner.instanceChat) {
             return FirebaseConteiner.instanceChat;
         }
@@ -29,7 +29,7 @@ class FirebaseConteiner {
         return FirebaseConteiner.instanceChat;
     }
 
-    static getInstance() {
+    static getInstanceFirebase() {
         if (FirebaseConteiner.instanceProduct) {
             return FirebaseConteiner.instanceProduct;
         }
