@@ -1,5 +1,5 @@
 const admin = require('firebase-admin')
-const dbsConfig = require('../config/dbsConnect.js')
+const { dbsConfig } = require('../config/dbsConnect.js')
 
 /*++++++++++++++++++++++++++++++++++++++++
 + FIREBASE CONTEINER - CONECCION A LA DB +

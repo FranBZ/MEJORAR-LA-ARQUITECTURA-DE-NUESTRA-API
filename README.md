@@ -29,4 +29,7 @@ Sugerencia: no incluir los node_modules</sup>
     GOOGLE_APLICATION_CREDENTIALS = "< path de la ubicacion de las credenciales >"
     ```
 - Una vez finalizado el punto anterior, ejecutar el comando ``` npm run start ```
+- Por consola se puede pasar como parametro el mode de persistencia que el usuario necesite 
+para los productos o el chat de la siguiente manera: ``` npm run start -- 'fs'``` o ``` npm run start -- 'firebase'``` o ``` npm run start -- 'mongodb'```.
+Por defecto el proyecto inicia en mongodb
 - Luego puedes utilizar el navegador de tu preferencia para testear los diferentes endpoints

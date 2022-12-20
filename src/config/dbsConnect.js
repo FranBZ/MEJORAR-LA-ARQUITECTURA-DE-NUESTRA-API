@@ -16,8 +16,8 @@ const { MONGO_USER,
 const dbsConfig = {
 
     fileSystem: {
-        pathChat: path.join(__dirname, '../FS-DB/chat.txt'),
-        pathProducts: path.join(__dirname, '../FS-DB/products.txt')
+        pathChat: path.join(__dirname, '../FS_DB/chat.txt'),
+        pathProducts: path.join(__dirname, '../FS_DB/products.txt')
     },
     mongodbAtlas: {
         uri: `mongodb+srv://${MONGO_USER}:${encodeURIComponent(MONGO_PASS)}${MONGO_ATLAS_ENDPOINT}`,

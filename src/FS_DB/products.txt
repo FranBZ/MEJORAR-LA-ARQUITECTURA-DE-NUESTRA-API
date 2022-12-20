@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "code": "1231",
+    "name": "asdf",
+    "price": "21",
+    "stock": "21",
+    "description": "adsf asdf sdf asdf sdfa",
+    "urlImage": "asdfasdfasdf",
+    "id": "08b9f480-49be-4578-8b46-08246a60c7b1"
+  }
+]
